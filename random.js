@@ -2,8 +2,9 @@
 var numero = Math.random();
 
 if (numero<=0.5){
-  console.log('\n'+ numero + 'Menor que 0,5 \n');
+  var srt = 'Menor que 0,5' ;
 }
 else¨{
-  console.log('\n'+ numero + 'Mayor que 0,5 \n')
+  var srt = 'Mayor que 0,5' ;
 }
+console.log('\n'+ numero + ' ' + srt + '\n');
